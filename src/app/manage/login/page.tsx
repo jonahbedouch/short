@@ -5,7 +5,7 @@ import { firebaseConfig } from '@/firebase';
 import { useRouter } from 'next/navigation';
 import { initializeApp } from 'firebase/app';
 
-const page = () => {
+const LoginPage = () => {
   const router = useRouter();
 
   const app = initializeApp(firebaseConfig);
@@ -53,4 +53,4 @@ const page = () => {
   )
 }
 
-export default page
+export default LoginPage
